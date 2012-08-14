@@ -108,9 +108,9 @@ function rec_settings_page() {
 					<li><a href="http://wordpress.org/support/plugin/run-external-crons"><?php _e( 'Help out other users in the forums', 'rec' ); ?></a></li>
 					<li class="rss"><a href="http://blog.milandinic.com/"><?php _e( 'Follow Milan&#8217;s blog', 'rec' ); ?></a></li>
 					<li class="twitter"><a href="https://twitter.com/dinicmilan"><?php _e( 'Follow Milan on Twitter', 'rec' ); ?></a></li>
-					<li><a href="http://blog.milandinic.com/donate/"><?php _e( 'Donate', 'rec' ); ?></a></li>
+					<li><a href="http://blog.milandinic.com/donate/"><?php _ex( 'Donate', 'settings sidebar link', 'rec' ); ?></a></li>
 				</ul>
-				<a href="http://blog.milandinic.com/donate/"><img src="<?php rec_image_url( 'donate.png' ); ?>" width="92" height="26" alt="<?php esc_attr_e( 'Donate', 'rec' ); ?>" /></a>
+				<a href="http://blog.milandinic.com/donate/"><img src="<?php rec_image_url( 'donate.png' ); ?>" width="92" height="26" alt="<?php echo esc_attr( _x( 'Donate', 'settings sidebar link', 'rec' ) ); ?>" /></a>
 			</div>
 		</div></div></div></div>
 	</div>
