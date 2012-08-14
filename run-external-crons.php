@@ -15,7 +15,7 @@
  * Description: Use WordPress internal cron system to hit external URLs on a scheduled basis.
  * Author:      Milan Dinić
  * Author URI:  http://blog.milandinic.com/
- * Version:     0.5
+ * Version:     1.0
  * Text Domain: rec
  * Domain Path: /languages/
  * License:     GPL
